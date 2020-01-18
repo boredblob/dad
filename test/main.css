@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+a {color: inherit; text-decoration: none;}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #111;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: green;
+  touch-action: none;
+  position: absolute;
+  display: none;
+}

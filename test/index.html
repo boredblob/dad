@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Test</title>
+</head>
+<body>
+  <form onsubmit="submitForm(); return false;">
+    <fieldset>
+      <label for="c">C to F</label>
+      <input type="radio" name="unit" id="c" value="c" required>
+      <br>
+      <label for="f">F to C</label>
+      <input type="radio" name="unit" id="f" value="f" required>
+    </fieldset>
+    <br>
+    <label for="value">Value:</label>
+    <input type="text" name="value" id="value" required autocomplete="off">
+  </form>
+  <br>
+  <span class="output"></span>
+  <div id="box1" class="box"></div>
+  <script src="app2.js"></script>
+</body>
+</html>
